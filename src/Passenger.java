@@ -3,8 +3,7 @@ public class Passenger {
     private int age;
 
     public Passenger() {
-        this.name = "";
-        this.age = 0;
+        
     }
 
     public Passenger(String name, int age) {
