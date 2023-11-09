@@ -17,7 +17,7 @@ public class PassengerManifest {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -58,6 +58,7 @@ public class PassengerManifest {
                 manifest[i] = new Passenger(name, age);
                 System.out.println("Passenger inserted into seat " + (i + 1) + ".");
                 return;
+            
             }
         }
 
@@ -89,7 +90,7 @@ public class PassengerManifest {
             System.out.println("Seats " + seat1 + " and " + seat2 + " switched.");
         } else {
             System.out.println("Invalid seat numbers.");
-        }
+        } 
     }
 
     public static void renamePassenger(Passenger[] manifest, Scanner scanner) {
